@@ -53,7 +53,7 @@
           <entry key="gitignore" value="48" />
           <entry key="java" value="15601" />
           <entry key="json" value="446" />
-          <entry key="md" value="2579" />
+          <entry key="md" value="2597" />
           <entry key="txt" value="32" />
           <entry key="xml" value="52" />
           <entry key="yml" value="20" />
@@ -63,7 +63,7 @@
         <counts>
           <entry key="JAVA" value="15601" />
           <entry key="JSON" value="446" />
-          <entry key="Markdown" value="2579" />
+          <entry key="Markdown" value="2597" />
           <entry key="PLAIN_TEXT" value="100" />
           <entry key="XML" value="52" />
           <entry key="YAML" value="20" />
@@ -78,7 +78,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="175">
-                <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
+                <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -104,6 +104,7 @@
       <find>Run</find>
       <find>navigate to</find>
       <find>hey</find>
+      <find>Install</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java/repository</dir>
@@ -670,7 +671,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="175">
-            <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
+            <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>
