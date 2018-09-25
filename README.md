@@ -32,7 +32,8 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 docker run --net=host --name metrics-store-prometheus -d -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
 ```
 - Navigate [http://localhost:9090](http://localhost:9090) in browser
-- Too see the response time histogram, navigate to [http://localhost:9090/graph?g0.range_input=10s&g0.expr=requests_latency_seconds_bucket&g0.tab=0](http://localhost:9090/graph?g0.range_input=10s&g0.expr=requests_latency_seconds_bucket&g0.tab=0)
+- Too see the response time histogram, navigate to
+[http://localhost:9090/graph?g0.range_input=10s&g0.expr=requests_latency_seconds_bucket&g0.tab=0](http://localhost:9090/graph?g0.range_input=10s&g0.expr=requests_latency_seconds_bucket&g0.tab=0)
 
 - Install
 ```sh

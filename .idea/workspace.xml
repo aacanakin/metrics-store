@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fb61385-fdf9-4738-8566-ae6f6b34055e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Migrate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Migrate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/ConfigFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ConfigFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,7 +53,7 @@
           <entry key="gitignore" value="48" />
           <entry key="java" value="15601" />
           <entry key="json" value="446" />
-          <entry key="md" value="2518" />
+          <entry key="md" value="2519" />
           <entry key="txt" value="32" />
           <entry key="xml" value="52" />
           <entry key="yml" value="20" />
@@ -68,7 +63,7 @@
         <counts>
           <entry key="JAVA" value="15601" />
           <entry key="JSON" value="446" />
-          <entry key="Markdown" value="2518" />
+          <entry key="Markdown" value="2519" />
           <entry key="PLAIN_TEXT" value="100" />
           <entry key="XML" value="52" />
           <entry key="YAML" value="20" />
@@ -82,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="256">
-                <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+              <first_editor relative-caret-position="202">
+                <caret line="35" selection-start-line="35" selection-end-line="35" />
               </first_editor>
               <second_editor />
             </state>
@@ -107,6 +102,7 @@
       <find>parse</find>
       <find>target</find>
       <find>Run</find>
+      <find>navigate to</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java/repository</dir>
@@ -672,8 +668,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="256">
-            <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+          <first_editor relative-caret-position="202">
+            <caret line="35" selection-start-line="35" selection-end-line="35" />
           </first_editor>
           <second_editor />
         </state>
