@@ -69,7 +69,7 @@ go get -u github.com/rakyll/hey
 ```
 - On repository root folder, run;
 ```sh
-hey -n 5000 -c 100 -A "application/json" -D post.body.json -m POST http://localhost:8080/events
+hey -n 100000 -c 100 -A "application/json" -D post.body.json -m POST http://localhost:8080/events
 ```
 - You can change `sleepy` in `config.json` to `false` to bench effectively
 

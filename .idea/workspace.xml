@@ -53,7 +53,7 @@
           <entry key="gitignore" value="48" />
           <entry key="java" value="15601" />
           <entry key="json" value="446" />
-          <entry key="md" value="2576" />
+          <entry key="md" value="2579" />
           <entry key="txt" value="32" />
           <entry key="xml" value="52" />
           <entry key="yml" value="20" />
@@ -63,7 +63,7 @@
         <counts>
           <entry key="JAVA" value="15601" />
           <entry key="JSON" value="446" />
-          <entry key="Markdown" value="2576" />
+          <entry key="Markdown" value="2579" />
           <entry key="PLAIN_TEXT" value="100" />
           <entry key="XML" value="52" />
           <entry key="YAML" value="20" />
@@ -77,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="107">
-                <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+              <first_editor relative-caret-position="175">
+                <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -103,6 +103,7 @@
       <find>target</find>
       <find>Run</find>
       <find>navigate to</find>
+      <find>hey</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java/repository</dir>
@@ -668,8 +669,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="107">
-            <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+          <first_editor relative-caret-position="175">
+            <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
