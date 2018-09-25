@@ -1,0 +1,14 @@
+{
+  "http": {
+    "host": "localhost",
+    "port": 8080
+  },
+  "db": {
+    "driver": "jdbc:mysql://localhost:5432/eventapi",
+    "user": "postgres",
+    "password": "event@api"
+  },
+  "apps": {
+    "abc": "toyblast"
+  }
+}

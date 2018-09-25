@@ -1,0 +1,18 @@
+{
+  "http": {
+    "host": "localhost",
+    "port": 8080
+  },
+  "prometheus": {
+    "port": 8081
+  },
+  "db": {
+    "driver": "jdbc:postgresql://localhost:5432/eventapi",
+    "user": "postgres",
+    "password": "event@api"
+  },
+  "apps": {
+    "df6653ce-3fb8-4dbc-8171-a0f98852357d": "toyblast",
+    "754f8008-560d-4ced-8041-be26b3d91e0a": "toonblast"
+  }
+}
