@@ -74,6 +74,9 @@ hey -n 5000 -c 100 -A "application/json" -D post.body.json -m POST http://localh
 - You can change `sleepy` in `config.json` to `false` to bench effectively
 
 ### Future Improvements
+- Tests
+    - Unit tests
+    - Integration tests
 - Logging
     - Integrate [log4j](https://logging.apache.org/log4j/2.x/)
 - API Key

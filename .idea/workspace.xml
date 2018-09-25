@@ -53,7 +53,7 @@
           <entry key="gitignore" value="48" />
           <entry key="java" value="15601" />
           <entry key="json" value="446" />
-          <entry key="md" value="2532" />
+          <entry key="md" value="2576" />
           <entry key="txt" value="32" />
           <entry key="xml" value="52" />
           <entry key="yml" value="20" />
@@ -63,7 +63,7 @@
         <counts>
           <entry key="JAVA" value="15601" />
           <entry key="JSON" value="446" />
-          <entry key="Markdown" value="2532" />
+          <entry key="Markdown" value="2576" />
           <entry key="PLAIN_TEXT" value="100" />
           <entry key="XML" value="52" />
           <entry key="YAML" value="20" />
@@ -77,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="134">
-                <caret line="73" column="74" selection-start-line="73" selection-start-column="74" selection-end-line="73" selection-end-column="74" />
+              <first_editor relative-caret-position="107">
+                <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -668,8 +668,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="134">
-            <caret line="73" column="74" selection-start-line="73" selection-start-column="74" selection-end-line="73" selection-end-column="74" />
+          <first_editor relative-caret-position="107">
+            <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
           </first_editor>
           <second_editor />
         </state>
