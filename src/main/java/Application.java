@@ -11,17 +11,19 @@ import model.ErrorResponse;
 import model.EventRequest;
 import org.eclipse.jetty.http.HttpStatus;
 import repository.EventRepository;
+import spark.utils.IOUtils;
 import util.Attributes;
 import util.Paths;
 
 import java.io.IOException;
-import java.net.URISyntaxException;
 import java.util.Map;
 
+import static java.lang.ClassLoader.getSystemResourceAsStream;
 import static spark.Spark.*;
 
 class Application {
 
+    private static final String CONFIG_PATH = "./config.json";
     private static final int MAX_THREADS = 32;
 
     // response time buckets in seconds
@@ -42,8 +44,9 @@ class Application {
 
         Config config;
         try {
-            config = ConfigFactory.create();
-        } catch (IOException | URISyntaxException e) {
+            String configContent = IOUtils.toString(Application.class.getResourceAsStream("config.json"));
+            config = ConfigFactory.create(configContent);
+        } catch (IOException e) {
             System.err.println(e.getMessage());
             System.err.println("Could not read config file");
             return;

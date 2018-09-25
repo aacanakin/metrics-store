@@ -1,5 +1,6 @@
 import config.Config;
 import config.ConfigFactory;
+import spark.utils.IOUtils;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -12,8 +13,9 @@ class Migrate {
     public static void main(String[] args) {
         Config config;
         try {
-            config = ConfigFactory.create();
-        } catch (IOException | URISyntaxException e) {
+            String configContent = IOUtils.toString(Application.class.getResourceAsStream("config.json"));
+            config = ConfigFactory.create(configContent);
+        } catch (IOException e) {
             System.err.println(e.toString());
             System.err.println("Could not read config file");
             return;

@@ -34,9 +34,19 @@ docker run --net=host --name metrics-store-prometheus -d -p 9090:9090 -v $(pwd)/
 - Navigate [http://localhost:9090](http://localhost:9090) in browser
 - Too see the response time histogram, navigate to [http://localhost:9090/graph?g0.range_input=10s&g0.expr=requests_latency_seconds_bucket&g0.tab=0](http://localhost:9090/graph?g0.range_input=10s&g0.expr=requests_latency_seconds_bucket&g0.tab=0)
 
-- Run `Migrate.java` to create table migrations predefined in `config.apps` 
-- Run `Application.java` to spin up HTTP server
+- Install
+```sh
+mvn clean install
+```
 
+- Run `Migrate.java` to create table migrations predefined in `config.apps`
+```sh
+mvn exec:java -Dexec.mainClass="Migrate"
+``` 
+- Run `Application.java` to spin up HTTP server
+```sh
+mvn exec:java -Dexec.mainClass="Application"
+```
 - Perform a sample request
 ```sh
 # apiKey, timestamp & userId is required
