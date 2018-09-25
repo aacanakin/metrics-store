@@ -1,15 +1,15 @@
 {
   "http": {
-    "host": "localhost",
-    "port": 8080
+    "port": 8080,
+    "sleepy": true
   },
   "prometheus": {
     "port": 8081
   },
   "db": {
-    "driver": "jdbc:postgresql://localhost:5432/eventapi",
-    "user": "postgres",
-    "password": "event@api"
+    "driver": "jdbc:postgresql://localhost:5432/metrics-store",
+    "user": "metrics",
+    "password": "metrics@store"
   },
   "apps": {
     "df6653ce-3fb8-4dbc-8171-a0f98852357d": "toyblast",

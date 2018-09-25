@@ -45,15 +45,15 @@ public class Config {
     }
 
     public class Http {
-        private String host;
         private int port;
-
-        public String getHost() {
-            return host;
-        }
+        private boolean sleepy;
 
         public int getPort() {
             return port;
+        }
+
+        public boolean isSleepy() {
+            return sleepy;
         }
     }
 

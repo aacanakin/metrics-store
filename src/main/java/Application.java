@@ -101,9 +101,12 @@ class Application {
 
         // Setup after filter to track response time
         after(Paths.EVENTS, (request, response) -> {
-            // Randomly sleep after each event request
-            long randomSleepInMillis = (long) (Math.random() * (100L));
-            Thread.sleep(randomSleepInMillis);
+            // Randomly sleep after each event request if sleepy is set
+            if (config.getHttp().isSleepy()) {
+                // Sleep randomly between 0 and 100ms
+                long randomSleepInMillis = (long) (Math.random() * (100L));
+                Thread.sleep(randomSleepInMillis);
+            }
 
             Histogram.Timer requestTimer = request.attribute(Attributes.REQUEST_TIMER);
             requestTimer.observeDuration();
