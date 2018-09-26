@@ -74,6 +74,8 @@ hey -n 100000 -c 100 -A "application/json" -D post.body.json -m POST http://loca
 - You can change `sleepy` in `config.json` to `false` to bench effectively
 
 ### Future Improvements
+- Docker
+    - Add docker compose configuration
 - Tests
     - Unit tests
     - Integration tests
